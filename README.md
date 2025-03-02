@@ -43,7 +43,7 @@ Each ToDo item includes:
 
 1. Navigate to the backend directory:
    ```
-   cd todo-app/backend
+   cd backend
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -68,7 +68,7 @@ Each ToDo item includes:
 
 1. Navigate to the frontend directory:
    ```
-   cd todo-app/frontend
+   cd frontend
    ```
 
 2. Install dependencies:
