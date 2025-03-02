@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*~
 *.so
 .Python
 env/
@@ -39,6 +40,9 @@ node_modules/
 out/
 .cache/
 .vercel
+.turbo/
+.swc/
+.eslintcache
 .env*.local
 npm-debug.log*
 yarn-debug.log*
@@ -76,9 +80,21 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+junit.xml
 
 # Build
-.DS_Store
 dist
 dist-ssr
 *.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
